@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research Papers</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Custom CSS -->
+  <style>
+    .paper-card {
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+    .paper-card .card-body {
+      padding: 20px;
+    }
+    .paper-thumbnail {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      object-position: center;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+    .card-title {
+      margin-bottom: 0;
+    }
+    .card-subtitle {
+      color: #888;
+      font-size: 14px;
+    }
+    .card-text {
+      margin-bottom: 20px;
+    }
+    .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+    }
+    .btn-primary:hover {
+      background-color: #0069d9;
+      border-color: #0062cc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Research Papers</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card paper-card">
+          <img src="paper-thumbnail-1.jpg" class="card-img-top paper-thumbnail" alt="Paper Thumbnail 1">
+          <div class="card-body">
+            <h5 class="card-title">Paper Title 1</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Author 1</h6>
+            <p class="card-text">Summary of the research paper.</p>
+            <a href="#" class="btn btn-primary"><i class="fas fa-download"></i> Download</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card paper-card">
+          <img src="paper-thumbnail-2.jpg" class="card-img-top paper-thumbnail" alt="Paper Thumbnail 2">
+          <div class="card-body">
+            <h5 class="card-title">Paper Title 2</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Author 2</h6>
+            <p class="card-text">Summary of the research paper.</p>
+            <a href="#" class="btn btn-primary"><i class="fas fa-download"></i> Download</a>
+          </div>
+        </div>
+      </div>
+      <!-- Add more research papers here -->
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ 
